@@ -1,9 +1,0 @@
-{
-  "permissions": {
-    "allow": [
-      "Bash(python3 \"C:/Users/LAPTOP80/.claude/skills/ui-ux-pro-max/scripts/search.py\" \"luxury escort companion GFE London high-end elite dark elegant\" --design-system -p \"Sara Bella London\")",
-      "Bash(python \"C:/Users/LAPTOP80/.claude/skills/ui-ux-pro-max/scripts/search.py\" \"luxury escort companion GFE London high-end elite dark elegant\" --design-system -p \"Sara Bella London\")",
-      "Bash(gh auth *)"
-    ]
-  }
-}
