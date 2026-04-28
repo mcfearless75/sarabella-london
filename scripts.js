@@ -9,6 +9,7 @@
 
   if (sessionStorage.getItem('ageAccepted') === 'true') {
     gate.style.display = 'none';
+    document.body.classList.remove('age-gated');
     return;
   }
 
@@ -16,6 +17,7 @@
 
   document.getElementById('age-enter').addEventListener('click', function () {
     sessionStorage.setItem('ageAccepted', 'true');
+    document.body.classList.remove('age-gated');
     gate.classList.add('hidden');
     document.body.style.overflow = '';
     setTimeout(function () { gate.style.display = 'none'; }, 420);

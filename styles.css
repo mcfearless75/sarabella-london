@@ -7,6 +7,11 @@
 /* ── Reset & Root ─────────────────────────────── */
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
+/* Hide all page content while age gate is active */
+body.age-gated > *:not(#age-gate) {
+  visibility: hidden !important;
+}
+
 :root {
   --dark:            #1a1714;
   --charcoal:        #2e2a26;
